@@ -5,7 +5,6 @@ The script run_analysis.R performs the described 5 steps of the course project's
 •	As activity data is addressed with values 1:6, we take the activity names and IDs from activity_labels.txt and they are substituted in the dataset.
 •	On the whole dataset, those columns with vague column names are corrected.
 •	Finally, we generate a new dataset with all the average measures for each subject and activity type. The output file is called averages_data.txt, and uploaded to this repository.
-
 # Variables
 •	xtrain, ytrain, xtest, ytest, subject_train and subject_test contain the data from the downloaded files.
 •	xdata, ydata and subject_data merge the previous datasets to further analysis.
